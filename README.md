@@ -1,12 +1,19 @@
-# Persona AI Chat (Vite + React + Tailwind)
+# Persona Maker AI App🧠
 
-This is a Vite React project converted from the user's provided TSX into separate components (JSX) and Tailwind CSS.
+A Developer AI Assistant built with React, Tailwind CSS, and Express. Interact with coding mentors (Hitesh Sir, Piyush Garg, Titu Mama) via a chat interface with real images, dark mode, and animations.
 
-## Setup
+## Features
+- Choose from three personas with unique images and styles.
+- Chat with a mock AI.
+- Toggle dark/light mode.
+- Responsive UI with Tailwind animations.
 
-1. unzip and open the folder
-2. run `npm install`
-3. run `npm run dev`
-4. open http://localhost:5173
+## Tech Stack
+- **Frontend**: React, Tailwind CSS, Lucide React, Vite
+- **Backend**: Node.js, Express
+- **Tools**: Concurrently, PostCSS, Autoprefixer
 
-Note: This project uses a mock AI function. Replace `src/mockOpenAI.js` with real API calls if you wish.
+## Prerequisites
+- Node.js (v22.1.0+)
+- Images: `hitesh.jpg`, `piyush.jpg`, `titu.jpg` in `src/assets/images`
+
